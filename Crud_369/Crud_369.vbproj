@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8F896212-67AF-47A8-8F7E-69FF80B91697}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Crud_369.My.MyApplication</StartupObject>
+    <RootNamespace>Crud_369</RootNamespace>
+    <AssemblyName>Crud_369</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Crud_369.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Crud_369.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>enchufe.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Ayuda\Acerca_de.Designer.vb">
+      <DependentUpon>Acerca_de.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ayuda\Acerca_de.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ayuda\Class2.vb" />
+    <Compile Include="Buscar_servidores\Buscar_servidores.Designer.vb">
+      <DependentUpon>Buscar_servidores.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Buscar_servidores\Buscar_servidores.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CONEXION\CONEXIONMAESTRA.vb" />
+    <Compile Include="CONEXION\CONEXION_MANUAL.Designer.vb">
+      <DependentUpon>CONEXION_MANUAL.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CONEXION\CONEXION_MANUAL.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CONEXION\Conexion_web.vb" />
+    <Compile Include="Configuraciones\Configuraciones.Designer.vb">
+      <DependentUpon>Configuraciones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Configuraciones\Configuraciones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Configuraciones\MascaraPrueba.Designer.vb">
+      <DependentUpon>MascaraPrueba.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Configuraciones\MascaraPrueba.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="En_construccion\En_construccion.Designer.vb">
+      <DependentUpon>En_construccion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="En_construccion\En_construccion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Generador\Generador_UI.Designer.vb">
+      <DependentUpon>Generador_UI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Generador\Generador_UI.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LIBRERIAS\Agregar_ceros_adelante_De_numero.vb" />
+    <Compile Include="LIBRERIAS\Cambiar_bordes_a_texboxvb.vb" />
+    <Compile Include="LIBRERIAS\cerrar_proceso.vb" />
+    <Compile Include="LIBRERIAS\Class1.vb" />
+    <Compile Include="LIBRERIAS\Class2.vb" />
+    <Compile Include="LIBRERIAS\Class3.vb" />
+    <Compile Include="LIBRERIAS\DataHelper.vb" />
+    <Compile Include="LIBRERIAS\Desencryptacion.vb" />
+    <Compile Include="LIBRERIAS\Encryptacion.vb" />
+    <Compile Include="LIBRERIAS\Encryptar_en_texto.vb" />
+    <Compile Include="LIBRERIAS\MyButtonCell.vb" />
+    <Compile Include="LIBRERIAS\Numeros_separadores.vb" />
+    <Compile Include="LIBRERIAS\Tamaño_automatico_de_datatables.vb" />
+    <Compile Include="LIBRERIAS\total_en_letras.vb" />
+    <Compile Include="LIBRERIAS\vForm.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Presentacion\Presentacion.Designer.vb">
+      <DependentUpon>Presentacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Presentacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Ayuda\Acerca_de.resx">
+      <DependentUpon>Acerca_de.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Buscar_servidores\Buscar_servidores.resx">
+      <DependentUpon>Buscar_servidores.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CONEXION\CONEXION_MANUAL.resx">
+      <DependentUpon>CONEXION_MANUAL.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configuraciones\MascaraPrueba.resx">
+      <DependentUpon>MascaraPrueba.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="En_construccion\En_construccion.resx">
+      <DependentUpon>En_construccion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Generador\Generador_UI.resx">
+      <DependentUpon>Generador_UI.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Presentacion.resx">
+      <DependentUpon>Presentacion.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\app.manifest">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="enchufe.ico" />
+    <None Include="Resources\Icono Restaurar.png" />
+    <None Include="Resources\Icono Minimizar.png" />
+    <None Include="Resources\Icono Maximizar.png" />
+    <None Include="Resources\ICON CERRARF.png" />
+    <None Include="Resources\regreso.png" />
+    <None Include="Resources\ojo %281%29.png" />
+    <None Include="Resources\ojo.png" />
+    <None Include="Resources\ojo-de-londres.png" />
+    <None Include="Resources\papel.png" />
+    <None Include="Resources\papeles.png" />
+    <None Include="Resources\jugar.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

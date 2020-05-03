@@ -1,0 +1,21 @@
+USE master
+GO
+CREATE PROC editar_spt_fallback_db
+@xserver_name As varchar,
+@xdttm_ins As datetime,
+@xdttm_last_ins_upd As datetime,
+@xfallback_dbid As smallint,
+@name As varchar,
+@dbid As smallint,
+@status As smallint,
+@version As smallint
+As
+UPDATE spt_fallback_db Set
+xdttm_ins=@xdttm_ins,
+xdttm_last_ins_upd=@xdttm_last_ins_upd,
+xfallback_dbid=@xfallback_dbid,
+name=@name,
+dbid=@dbid,
+status=@status,
+version=@version
+Where xserver_name=@xserver_name

@@ -1,0 +1,31 @@
+D:\Crud_369\Crud_369\obj\Debug\Crud_369.Buscar_servidores.resources
+D:\Crud_369\Crud_369\obj\Debug\Crud_369.CONEXION_MANUAL.resources
+D:\Crud_369\Crud_369\obj\Debug\Crud_369.Form1.resources
+D:\Crud_369\Crud_369\obj\Debug\Crud_369.Generador_UI.resources
+D:\Crud_369\Crud_369\obj\Debug\Crud_369.Resources.resources
+D:\Crud_369\Crud_369\obj\Debug\Crud_369.Presentacion.resources
+D:\Crud_369\Crud_369\obj\Debug\Crud_369.vbproj.GenerateResource.Cache
+D:\Crud_369\Crud_369\obj\Debug\Crud_369.xml
+D:\Crud_369\Crud_369\bin\Debug\Crud_369.exe
+D:\Crud_369\Crud_369\bin\Debug\Crud_369.pdb
+D:\Crud_369\Crud_369\bin\Debug\Crud_369.xml
+D:\Crud_369\Crud_369\obj\Debug\Crud_369.exe
+D:\Crud_369\Crud_369\obj\Debug\Crud_369.pdb
+D:\Crud_369\Crud_369\obj\Debug\Crud_369.vbprojResolveAssemblyReference.cache
+D:\Proyectos en vb\Crud369 Principal\Crud_369\Crud_369\obj\Debug\Crud_369.exe
+D:\Proyectos en vb\Crud369 Principal\Crud_369\Crud_369\obj\Debug\Crud_369.xml
+D:\Proyectos en vb\Crud369 Principal\Crud_369\Crud_369\obj\Debug\Crud_369.pdb
+D:\Proyectos en vb\Crud369 Principal\Crud_369\Crud_369\bin\Debug\Crud_369.exe
+D:\Proyectos en vb\Crud369 Principal\Crud_369\Crud_369\bin\Debug\Crud_369.pdb
+D:\Proyectos en vb\Crud369 Principal\Crud_369\Crud_369\bin\Debug\Crud_369.xml
+D:\Proyectos en vb\Crud369 Principal\Crud_369\Crud_369\obj\Debug\Crud_369.vbprojResolveAssemblyReference.cache
+D:\Proyectos en vb\Crud369 Principal\Crud_369\Crud_369\obj\Debug\Crud_369.Buscar_servidores.resources
+D:\Proyectos en vb\Crud369 Principal\Crud_369\Crud_369\obj\Debug\Crud_369.CONEXION_MANUAL.resources
+D:\Proyectos en vb\Crud369 Principal\Crud_369\Crud_369\obj\Debug\Crud_369.Form1.resources
+D:\Proyectos en vb\Crud369 Principal\Crud_369\Crud_369\obj\Debug\Crud_369.Generador_UI.resources
+D:\Proyectos en vb\Crud369 Principal\Crud_369\Crud_369\obj\Debug\Crud_369.Resources.resources
+D:\Proyectos en vb\Crud369 Principal\Crud_369\Crud_369\obj\Debug\Crud_369.Presentacion.resources
+D:\Proyectos en vb\Crud369 Principal\Crud_369\Crud_369\obj\Debug\Crud_369.vbproj.GenerateResource.Cache
+D:\Proyectos en vb\Crud369 Principal\Crud_369\Crud_369\obj\Debug\Crud_369.MascaraPrueba.resources
+D:\Proyectos en vb\Crud369 Principal\Crud_369\Crud_369\obj\Debug\Crud_369.Acerca_de.resources
+D:\Proyectos en vb\Crud369 Principal\Crud_369\Crud_369\obj\Debug\Crud_369.En_construccion.resources
